@@ -1,0 +1,71 @@
+.text-box h3:first-child {
+    color: pink; 
+}
+
+#greycol {
+    color: gray;
+}
+
+#greycol~div>p {
+    color: red;
+}
+
+div~h3~p {
+    color: yellow;
+}
+
+div~h3+p {
+    color: green;
+}
+
+.div:hover {
+    color: blue;
+}
+
+.h1:focus {
+    color: crimson;
+}
+
+.h2:focus {
+    color: aquamarine;
+}
+
+.h3:focus {
+    color: gold;
+}
+
+.h3:link {
+    background-color: chartreuse;
+}
+
+.h4:visited {
+    color: darkmagenta;
+}
+
+.h4:visited {
+    background-color: lime;
+}
+
+.h5:active {
+    background-color:black ;
+}
+
+.li1:nth-child(4n) {
+    color: coral;
+}
+
+.li1:nth-child(n+20) {
+    color: darkgoldenrod;
+}
+
+.li1:nth-child(odd) {
+    font-size: 30px;
+}
+
+.li1:nth-child(even) {
+    background-color: rgb(139, 255, 139);
+}
+
+.li1:last-child {
+    background-color: black;
+}
